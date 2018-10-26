@@ -10,6 +10,7 @@ namespace ExampleMessageQueue
 {
     public class Program
     {
+        public Queue<string> sendQueue = new Queue<string>();
         public static void Main(string[] args)
         {
             StandardQueue();
